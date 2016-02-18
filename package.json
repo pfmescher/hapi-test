@@ -1,0 +1,38 @@
+{
+  "name": "hapi-test",
+  "version": "0.0.0",
+  "description": "Mini rest api implementation using the Hapi framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "lint": "jshint **.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfmescher/hapi-test.git"
+  },
+  "keywords": [
+    "hapi",
+    "node",
+    "rest"
+  ],
+  "author": "Pablo Mescher <pfmescher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfmescher/hapi-test/issues"
+  },
+  "homepage": "https://github.com/pfmescher/hapi-test",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "hapi": "^13.0.0",
+    "hapi-swagger": "^4.2.1",
+    "inert": "^3.2.0",
+    "joi": "^8.0.1",
+    "lodash": "^4.5.0",
+    "vision": "^4.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5"
+  }
+}
